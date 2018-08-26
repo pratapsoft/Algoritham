@@ -2,11 +2,11 @@ package CH02;
 
 public class Student implements Person {
 
-    String id;
-    String name;
+    String id; // ID is specify to denote a person unique id
+    String name; // use to name identify
     int age;
     public Student(String i, String n, int a){
-        id = i;
+        id = i; //
         name = n;
         age = a;
 
